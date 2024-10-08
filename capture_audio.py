@@ -9,7 +9,7 @@ import numpy as np
 
 device_number=3 #got this from list of devices using sounddevice lib
 fs=16000
-duration = 5 #duration of recording
+duration = 1 #duration of recording
 output_file="chunk.wav" #opened new file to save the recording
 
 
