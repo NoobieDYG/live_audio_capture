@@ -11,8 +11,7 @@ from subtitle_display import subtitle_display
 model = whisper.load_model("small")
 def transcribe_live():
     recording_audio_from_livestream()
-    audio_path=r"C:\Users\Affaan Jaweed\Desktop\Live audio capture\chunk.wav"
-
+    audio_path=r"enter_locwtion"
     result = model.transcribe(audio_path)
 
     english_text=result['text']
